@@ -34,7 +34,7 @@ while counter < cart.length
   if cart[counter][:clearance] == true
     cart[counter][:price] = (cart[counter][:price] * discount).round(2)
   else
-    clearance_cart.push(cart[counter])
+
   end
 counter += 1
 end
